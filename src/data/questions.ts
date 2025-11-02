@@ -5,13 +5,13 @@ export const questions: Question[] = [
     id: 1,
     type: 'yesnomaybe',
     question: {
-      en: "When you wake and see your messages waiting… does it fill you with warmth, with weight, or with nothing at all?",
-      fr: "Quand vous vous réveillez et voyez vos messages en attente… cela vous remplit-il de chaleur, de poids, ou de rien du tout?",
-      ar: "عندما تستيقظ وترى رسائلك في انتظارك... هل تملؤك بالدفء، بالثقل، أم بلا شيء على الإطلاق؟"
+      en: "Good morning, traveler of thoughts. Before the world rushes in — tell me, when you wake and see your messages waiting… does it fill you with warmth, with weight, or with nothing at all?",
+      fr: "Bonjour, voyageur de pensées. Avant que le monde ne se précipite — dites-moi, quand vous vous réveillez et voyez vos messages en attente… cela vous remplit-il de chaleur, de poids, ou de rien du tout?",
+      ar: "صباح الخير، مسافر الأفكار. قبل أن يندفع العالم - خبرني، عندما تستيقظ وترى رسائلك في الانتظار... هل يملأك بالدفء أم بالثقل أم بلا شيء على الإطلاق؟"
     },
     options: [
       {
-        value: 'yes',
+        value: 'warmth',
         label: {
           en: 'Warmth',
           fr: 'Chaleur',
@@ -19,7 +19,7 @@ export const questions: Question[] = [
         }
       },
       {
-        value: 'no',
+        value: 'weight',
         label: {
           en: 'Weight',
           fr: 'Poids',
@@ -27,11 +27,11 @@ export const questions: Question[] = [
         }
       },
       {
-        value: 'unsure',
+        value: 'nothing',
         label: {
           en: 'Nothing at all',
           fr: 'Rien du tout',
-          ar: 'لا شيء'
+          ar: 'لا شيء على الإطلاق'
         }
       }
     ]
@@ -40,18 +40,18 @@ export const questions: Question[] = [
     id: 2,
     type: 'yesno',
     question: {
-      en: "When your day begins, do your thoughts flow like calm rivers… or flutter like bright birds, one chasing another, never still?",
-      fr: "Quand votre journée commence, vos pensées coulent-elles comme des rivières calmes… ou volettent-elles comme des oiseaux brillants, l'un chassant l'autre, jamais immobiles?",
-      ar: "عندما يبدأ يومك، هل تتدفق أفكارك كأنهار هادئة... أم ترفرف كطيور مشرقة، واحد يطارد الآخر، لا يسكن أبدًا؟"
+      en: "Hmm, I see. Sometimes, mornings whisper more than they say. When your day begins, do your thoughts flow like calm rivers… or flutter like bright birds, one chasing another, never still?",
+      fr: "Hmm, je comprends. Parfois, les matins chuchotent plus qu'ils ne le disent. Quand votre journée commence, vos pensées coulent-elles comme des rivières calmes… ou volettent-elles comme des oiseaux brillants, l'un chassant l'autre, jamais immobiles?",
+      ar: "آه، أفهم. في بعض الأحيان، الصباحات تهمس أكثر مما تقول. عندما يبدأ يومك، هل تتدفق أفكارك مثل الأنهار الهادئة... أم ترفرف مثل الطيور الساطعة، الواحد يطارد الآخر، لا تسكن أبدًا؟"
     }
   },
   {
     id: 3,
     type: 'multiple',
     question: {
-      en: "Some mornings, your energy feels like?",
-      fr: "Certains matins, votre énergie ressemble à?",
-      ar: "في بعض الصباحات، تشعر طاقتك وكأنها؟"
+      en: "Beautiful honesty. Some mornings, your energy feels like?",
+      fr: "Honnêteté magnifique. Certains matins, votre énergie ressemble à?",
+      ar: "صراحة جميلة. في بعض الصباحات، تشعر طاقتك وكأنها؟"
     },
     options: [
       {
@@ -85,7 +85,7 @@ export const questions: Question[] = [
     type: 'yesno',
     question: {
       en: "You pause before the mirror. Do your emotions greet you there — or do they seem to hide behind your eyes, waiting for you to find them?",
-      fr: "Vous vous arrêtez devant le miroir. Vos émotions vous saluent-elles — ou semblent-elles se cacher derrière vos yeux, attendant que vous les trouviez?",
+      fr: "Vous vous arrêtez devant le miroir. Vos émotions vous saluent-elles là — ou semblent-elles se cacher derrière vos yeux, attendant que vous les trouviez?",
       ar: "تتوقف أمام المرآة. هل تحييك مشاعرك هناك - أم يبدو أنها تختبئ خلف عينيك، في انتظار أن تجدها؟"
     }
   },
@@ -93,9 +93,9 @@ export const questions: Question[] = [
     id: 5,
     type: 'yesno',
     question: {
-      en: "When someone speaks of something that doesn't move your heart — can your mind still stay present, or does it quietly wander away?",
-      fr: "Quand quelqu'un parle de quelque chose qui ne touche pas votre cœur — votre esprit peut-il rester présent, ou s'éloigne-t-il tranquillement?",
-      ar: "عندما يتحدث شخص ما عن شيء لا يحرك قلبك - هل يمكن لعقلك أن يبقى حاضرًا، أم أنه يتجول بهدوء؟"
+      en: "Let's walk into your day. When someone speaks of something that doesn't move your heart — can your mind still stay present, or does it quietly wander away?",
+      fr: "Marchons dans votre journée. Quand quelqu'un parle de quelque chose qui ne touche pas votre cœur — votre esprit peut-il rester présent, ou s'éloigne-t-il tranquillement?",
+      ar: "دعنا نخطو في يومك. عندما يتحدث شخص ما عن شيء لا يحرك قلبك - هل يمكن لعقلك أن يبقى حاضرًا، أم أنه يتجول بهدوء؟"
     }
   },
   {
@@ -103,8 +103,8 @@ export const questions: Question[] = [
     type: 'yesno',
     question: {
       en: "A spark of inspiration comes — sudden, vivid. Do you follow it instantly, or do you breathe and let it rest a while?",
-      fr: "Une étincelle d'inspiration vient — soudaine, vive. La suivez-vous instantanément, ou respirez-vous et la laissez-vous reposer un moment?",
-      ar: "تأتي شرارة إلهام - مفاجئة، حية. هل تتبعها فورًا، أم تتنفس وتدعها تستريح قليلاً؟"
+      fr: "Une étincelle d'inspiration arrive — soudaine, vive. La suivez-vous instantanément, ou respirez-vous et la laissez-vous reposer un moment?",
+      ar: "تأتي شرارة إلهام - مفاجئة، حية. هل تتبعها على الفور، أم تتنفس وتدعها تستريح قليلاً؟"
     }
   },
   {
@@ -112,7 +112,7 @@ export const questions: Question[] = [
     type: 'yesno',
     question: {
       en: "You walk outside. A stranger looks your way. Do you think nothing of it… or feel as though their gaze carries meaning?",
-      fr: "Vous sortez. Un étranger regarde dans votre direction. N'y pensez-vous rien… ou sentez-vous que leur regard porte un sens?",
+      fr: "Vous sortez dehors. Un étranger regarde dans votre direction. N'y pensez-vous rien… ou sentez-vous que leur regard porte un sens?",
       ar: "تخرج للخارج. ينظر إليك شخص غريب. هل لا تفكر في الأمر... أم تشعر كما لو أن نظرتهم تحمل معنى؟"
     }
   },
@@ -122,7 +122,7 @@ export const questions: Question[] = [
     question: {
       en: "Evening draws near. When silence surrounds you, does your mind rest like still water… or does it ripple with endless thought?",
       fr: "Le soir approche. Quand le silence vous entoure, votre esprit se repose-t-il comme une eau calme… ou ondule-t-il de pensées infinies?",
-      ar: "يقترب المساء. عندما يحيط بك الصمت، هل يستريح عقلك كماء ساكن... أم يتموج بأفكار لا تنتهي؟"
+      ar: "يقترب المساء. عندما يحيط بك الصمت، هل يستريح عقلك مثل المياه الساكنة... أم يتموج بأفكار لا تنتهي؟"
     }
   },
   {
@@ -147,18 +147,18 @@ export const questions: Question[] = [
     id: 11,
     type: 'yesno',
     question: {
-      en: "Do your moods ever shift quickly? Moments of fire followed by stillness… or sudden storms after sunshine?",
-      fr: "Vos humeurs changent-elles rapidement? Des moments de feu suivis de calme… ou des tempêtes soudaines après le soleil?",
-      ar: "هل تتغير مزاجك بسرعة؟ لحظات من النار تليها السكون... أم عواصف مفاجئة بعد أشعة الشمس؟"
+      en: "Tell me, traveler — do your moods ever shift quickly? Moments of fire followed by stillness… or sudden storms after sunshine?",
+      fr: "Dites-moi, voyageur — vos humeurs changent-elles rapidement? Des moments de feu suivis de calme… ou des tempêtes soudaines après le soleil?",
+      ar: "خبرني أيها المسافر - هل تتغير مزاجك بسرعة؟ لحظات من النار تليها السكون... أم عواصف مفاجئة بعد أشعة الشمس؟"
     }
   },
   {
     id: 12,
     type: 'yesno',
     question: {
-      en: "Do you sometimes feel your mind is too full — voices, ideas, echoes blending all at once?",
-      fr: "Sentez-vous parfois que votre esprit est trop plein — des voix, des idées, des échos se mélangeant tous à la fois?",
-      ar: "هل تشعر أحيانًا أن عقلك ممتلئ جدًا - أصوات، أفكار، أصداء تمتزج كلها في آن واحد؟"
+      en: "And within, do you sometimes feel your mind is too full — voices, ideas, echoes blending all at once?",
+      fr: "Et en vous, sentez-vous parfois que votre esprit est trop plein — des voix, des idées, des échos se mélangeant tous à la fois?",
+      ar: "وفي أعماقك، هل تشعر أحيانًا أن عقلك ممتلئ جدًا - أصوات، أفكار، أصداء تمتزج كلها في آن واحد؟"
     }
   },
   {
@@ -174,9 +174,9 @@ export const questions: Question[] = [
     id: 14,
     type: 'yesno',
     question: {
-      en: "When you speak your truth, do others easily understand you — or do you feel your words come from a different melody altogether?",
-      fr: "Quand vous dites votre vérité, les autres vous comprennent-ils facilement — ou sentez-vous que vos mots viennent d'une mélodie différente?",
-      ar: "عندما تقول حقيقتك، هل يفهمك الآخرون بسهولة - أم أنك تشعر أن كلماتك تأتي من لحن مختلف تمامًا؟"
+      en: "Last one, my friend. When you speak your truth, do others easily understand you — or do you feel your words come from a different melody altogether?",
+      fr: "La dernière, mon ami. Quand vous dites votre vérité, les autres vous comprennent-ils facilement — ou sentez-vous que vos paroles viennent d'une mélodie entièrement différente?",
+      ar: "الأخيرة يا صديقي. عندما تقول حقيقتك، هل يفهمك الآخرون بسهولة - أم أنك تشعر أن كلماتك تأتي من لحن مختلف تمامًا؟"
     }
   }
 ];

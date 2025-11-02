@@ -87,7 +87,11 @@ export function IntroScreen({ onStart }: IntroScreenProps) {
         <div className="text-center">
           <div className="inline-flex items-center gap-2 text-sm text-gray-500 dark:text-gray-500">
             <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-            <span>14 questions • 5 minutes • Completely private</span>
+            <span>
+              {language === 'fr' ? '14 questions • 5 minutes • Entièrement privé' :
+               language === 'ar' ? '14 سؤال • 5 دقائق • خصوصي تماماً' :
+               '14 questions • 5 minutes • Completely private'}
+            </span>
           </div>
         </div>
       </div>
